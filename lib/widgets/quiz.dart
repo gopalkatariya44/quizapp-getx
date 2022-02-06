@@ -24,8 +24,8 @@ class Quiz extends StatelessWidget {
                 ['answers'] as List<Map<String, dynamic>>)
             .map(
               (value) => Answer(
-                onPressed: () => homeController
-                    .onPress(double.parse(value['score'].toString())),
+                onPressed: () => homeController.onPress(
+                    double.parse(value['score'].toString()), value['text']),
                 answerText: value['text'],
               ),
             )

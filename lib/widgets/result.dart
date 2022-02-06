@@ -20,6 +20,13 @@ class Result extends StatelessWidget {
           ),
           const SizedBox(height: 30),
           const Text(
+            "You choss",
+            style: TextStyle(fontSize: 24),
+          ),
+          ...List.generate(homeController.favoirites.length,
+              (index) => Text(homeController.favoirites[index])),
+          const Divider(),
+          const Text(
             "Score",
             style: TextStyle(fontSize: 24),
           ),

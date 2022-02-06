@@ -14,7 +14,9 @@ class Answer extends StatelessWidget {
       child: SizedBox(
         height: 50,
         width: Get.width / 1.3,
-        child: ElevatedButton(
+        child: OutlinedButton(
+          style: OutlinedButton.styleFrom(
+              side: BorderSide(width: 2, color: Colors.green)),
           onPressed: onPressed,
           child: Text(
             answerText,
