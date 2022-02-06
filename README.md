@@ -4,15 +4,15 @@ A new Flutter QuizApp.
 
 ## Getting Started
 
-this was amazing paro ject with Getx i done.
+Beautiful project done with GetX
 
 ### Clone in your machin
 ```
-git clone quiiz app
+git clone https://github.com/gopalkatariya44/quizapp-getx.git
 ```
 
 ### basics of GetxController
-- this is the onpress button to the answer
+- this is the onpress button for the answer
 ```
   onPress(double score, String value) {
       favoirites.add(value);
@@ -30,7 +30,7 @@ git clone quiiz app
   }
 ```
 
-- deoend on answer chosan result in text
+- depend on answer chosen result in text
 ```
   String get resultText {
     String text = "";
